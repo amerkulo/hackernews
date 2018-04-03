@@ -28,6 +28,7 @@ class App extends Component {
       last: "Merkulov"
     };
 
+
     return (
       <div className="App">
         <header className="App-header">
@@ -35,7 +36,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          To get started {name.fist}--{name.last}, edit <code>src/App.js</code> and save to reload.
+          To get started {name.fist}------{name.last}, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
     );
